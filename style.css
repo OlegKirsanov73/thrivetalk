@@ -1,0 +1,342 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F4F9E2;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    color: #22356F;
+    font-size: 14px;
+    align-items: center;
+}
+.logo {
+    margin-left: 140px;
+    color: #62D0DF;
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+   
+}
+.nav_link {
+    margin: 0 15px;
+    color: #22356F;
+}
+.button {
+    margin: 0 120px;
+    color: #fff;
+    background-color: #62D0DF;
+    border-radius: 50px;
+    padding: 20px 30px;
+    border: none;
+    font-size: 14px;
+}
+.intro {
+    margin-left: 140px;
+    margin-top: 115px;
+}
+.title {
+    color: #62D0DF;
+    font-size: 24px;
+}
+.title_main{
+    color: #22356F;
+    font-size: 48px;
+    line-height: 53px;
+}
+.intro_text {
+    color: #22356F ;
+    font-size: 24px ;
+    line-height: 42px;
+}
+.intro_btn {
+    font-size: 16px;
+    margin-left: 140px;
+    
+}
+.btn_1 {
+    display: inline-block;
+    background-color: #fff;
+    color: #FAB63E;
+    border: none;
+    padding: 10px 30px;
+    margin-right:38px;
+}
+.btn_2 {
+    display: inline-block;
+    background-color: #fff;
+    color: #FAB63E;
+    border: none;
+    padding: 10px 30px;
+    
+}
+.btn_1:hover{
+    background: #FAB63E;
+    color: #fff;
+}
+.btn_2:hover{
+    background: #FAB63E;
+    color: #fff;
+}
+.mask_img {
+    position: absolute;
+    padding-left: 60px;
+    margin-left:697.98px;
+    margin-top: 79.43px;
+}
+.rectangle{
+    position: absolute;
+    width: 640.71px;
+    height: 665.93px;
+    transform: matrix(-0.87, 0.2, 0.2, 0.87, 0, 0);
+}
+.intro_img {
+    position: absolute;
+    width: 677.71px;
+    height: 500.93px;
+    border-radius: 312.159px;
+    transform: scale(-1, 1);
+    background:linear-gradient(251deg, #FFFFFF 11.23, rgba(255, 255, 255, 0) 48.4), url(linkedin-sales-navigator-406825.jpg);
+}
+.body_2 {
+    position: absolute;
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 602px;
+    background-color: #62D0DF;
+}
+.text_2 {
+    vertical-align: middle;
+    margin-top: 151px;
+    margin-left: 125px;
+}
+.title_2 {
+    font-size:36px ;
+    color: #fff;
+}
+.question {
+    font-size: 24px;
+    color: #fff;
+    line-height:35px ;
+}
+.answer {
+    font-size: 20px;
+    color: #fff;
+    line-height: 29px;
+}
+.body_img_2 {
+    position: absolute;
+    width: 525px;
+    margin-left: 825px;
+    height: 604px;  
+}
+.body_3 {
+    position: absolute;
+    background-color: #F4F9E2;
+    margin-top: 690px;
+    margin-left: 106px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 361px;
+}
+.title_3 {
+    padding-top: 138px;
+    font-size: 16px;
+    color: #22356F;
+}
+.text_3 {
+    padding-top: 130px;
+    width: 592px;
+    letter-spacing: 0,5%;
+    margin-right: 190px;
+    padding-left: 225px;
+    font-size: 24px;
+    color: #22356F;
+    line-height: 33px;
+}
+.main {
+    margin-top: 1150px;
+}
+.main h2 {
+    margin-left: 583px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #22356F80;
+    background-color: #F4F9E2;
+    
+}
+.menu {
+    position: relative;
+    display: grid;
+    grid-template: 500px 500px / repeat(3,33.3%); 
+}
+.menu_icon {
+    display: flex;
+    
+}
+.menu_img {
+    position: relative;
+    display: flex;
+}
+.menu h3 {
+    position: absolute;
+    margin-top: 106px;
+    margin-left: 104px;
+    font-size: 32px;
+    color: #fff;
+    line-height: 33.75px;
+}
+.trait {
+    position: absolute;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 86px;
+    border-top: 1px solid;
+    color: #fff;
+}
+.plans {
+    display: grid;
+    grid-template:240px / repeat(3,33.3%);
+    margin-top: 22px;
+    height: 480px;
+    margin-bottom: auto;
+    
+}
+.plans_item {
+    margin-left: 105px;
+    vertical-align:middle;
+}
+.plans_item h2 {
+    font-size: 28px;
+    color: #22356F;
+    margin-bottom: 677px;
+}
+.plans_item p {
+    margin-top: -660px;
+    font-size: 16px;
+    color: #22356F80;
+    line-height: 25.31px;
+}
+.info {
+    position: relative;
+    background-color: #F4F9E2;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.info_text {
+    margin-top: 77px;
+    position: absolute;
+}
+.info h {
+    margin-left: 589px;
+    margin-top: 103px;
+    font-size: 16px;
+    color: #22356F;
+}
+.info p {
+    margin-top: 235px;
+    margin-bottom: 200px;
+    margin-left: 589px;
+    font-size: 36px;
+    color: #22356F;
+}
+span {
+    font-size: 36px;
+    color: #6CD3E1;
+}
+.btn_3 {
+    margin-left: 589px;
+    font-size: 16px;
+    color: #FAB63E;
+}
+.info_img {
+    position: absolute;
+    width: auto;
+    margin: 0;
+}
+.contact {
+    margin-top: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #22356F;
+}
+.contact h3 {
+    margin-top: 103px;
+    margin-left: 180px;
+    color: #fff;
+    font-size: 16px;
+}
+.contact h1{
+    margin-top: 250px;
+    margin-left: 180px;
+    color: #fff;
+    font-size: 64px;
+}
+.contact p {
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-bottom: 75px;
+    line-height: 52.73px;
+    color: #fff;
+    font-size: 36px;
+}
+.contact a {
+    margin-left: 180px;
+    font-size: 16px;
+    color: #62D0DF;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+.last_blog {
+    margin-top: 130px;
+    margin-left: 68px;
+    white-space: nowrap;
+	font-size: 0;
+}
+.last_item {
+    line-height: 22.97px;
+    white-space: normal;	
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin-right: 5%;
+	font-size: 14px;
+}
+.last_blog .last-item:last-child {
+	margin-right: 0 ;
+}
+.last h2 {
+    font-size: 14px;
+    color: #22356F;
+}
+.last p {
+    font-size: 14px;
+    color: #22356F80;
+}
+.footer {
+    padding-top: 32px;
+    padding-bottom: 26px;
+    width: 100%;
+    background-color: #62D0DF;
+    background-size: cover;
+}
+.footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 194px;
+    font-size: 14px;
+    color: #fff;
+}
